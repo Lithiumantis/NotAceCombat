@@ -52,10 +52,10 @@ public class Movement : MonoBehaviour
         Vector3 moveValue;
         
         //mouse input
-        //y = Input.GetAxis("Mouse Y");
-        //x = Input.GetAxis("Mouse X");
+        y = Input.GetAxis("Mouse Y");
+        x = Input.GetAxis("Mouse X");
         GetMousePosNormalized();
-        y = mouseY;
+        //y = mouseY;
         x = mouseX;
 
         // GET ROLL
